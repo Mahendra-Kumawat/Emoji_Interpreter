@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.App {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+  /* border: 2px solid red; */
+  padding: 7rem;
+  background-color: rgb(181, 118, 240);
+  height: 100vh;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  color: white;
+  font-size: 2.4rem;
+}
+
+input {
+  border: 2px solid green;
+  margin: 1rem;
+  width: 200px;
+  padding: 0.8rem 1rem;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+}
+
+h3 {
+  color: white;
+  font-size: 1.5rem;
+}
+
+h2 {
+  color: blue;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+span {
+  /* border: 2px solid red; */
+  font-size: 2rem;
+  padding: 0.7rem;
+  cursor: pointer;
+}
